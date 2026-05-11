@@ -1,0 +1,3 @@
+ CXF 3.6.x does not support directly mapping application/x-www-form-urlencoded to a Java Bean (Book).
+ This is a framework limitation; no provider can do this.
+ You can only receive it using a Map and then manually wrap it into an object.
